@@ -1,7 +1,11 @@
-function skillMember() {
-  this.name = 'skillMember';
-  this.skill = 'skill';
-  this.skillMember = 'skillMember';
-  this.skillMember2 = 'skillMember2';
-  this.skillMember3 = 'skillMember3';
-}ber();
+function skillsMember(){
+  var member = {
+    name: 'John',
+    age: 25,
+    skills: ['Javascript', 'NodeJS', 'React', 'MongoDB'],
+    greet: function(){
+      console.log('Hello, I am ' + this.name);
+    }
+  }
+  return member;
+}
